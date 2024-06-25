@@ -49,9 +49,9 @@ a {
 
 .body-1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 50px;
 }
 
 .title-1 {
@@ -87,5 +87,118 @@ button {
     align-items: center;
     justify-content: center;
     margin: 40px 70px;
+}
+
+.body-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title-2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    border: 3px;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    color: #3882F6;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtext-2 {
+    max-width: 150px;
+}
+
+.body-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 700px;
+    text-wrap: wrap;
+}
+
+.quoter {
+    font-weight: bold;
+}
+
+
+.body-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 10px;
+    width: 900px;
+
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    flex-direction: column;
+}
+
+.text-4 {
+    font-weight: bold;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.sign-up-button-2 {
+    border: 1.5px, #F9FAF8 solid;
+    border-radius: 10px;
 }
 
